@@ -1,0 +1,7 @@
+#Place to jot down note ideas
+
+- Brand would revolve around personalized Physical Therapy Solutions
+- Panacea Pal?
+
+- CSS
+  - Think through banner/hero portions of the page. How will this look when on mobile or iPad?
