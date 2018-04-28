@@ -5,3 +5,6 @@
 
 - CSS
   - Think through banner/hero portions of the page. How will this look when on mobile or iPad?
+
+- JS
+  - Wanted to add an interesting scrolling function. Works with the background-position.

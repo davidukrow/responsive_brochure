@@ -5,7 +5,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Panacea Pal</title>
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Started ideating with using the bootstrap minified code. Decided to continue to use the file labeled under style.css  -->
 <!-- May look to add some more bootstrap ideas into that style sheet if necessary -->
 </head>
@@ -23,26 +25,32 @@
     </nav>
   </header>
 
-  <section class="home-hero">
-    <h1 class="title-hero">A Personalized Home Exercise Program
-      <span>The path towards improvement gets easier with a pal</span>
-    </h1>
-    <a href="" class="button button-accent">Download Our App</a>
-  </section>
+  <section class="home-banner scroll_func--bg">
+    <div class="container">
 
-  <section class="home-about">
+      <h1 class="title-hero scroll_func--box">A Personalized Home Exercise Program
+        <span>The path towards improvement gets easier with a pal</span>
+      </h1>
+      <a href="" class="button button-accent">Download Our App Soon!</a>
 
-    <div class="home-about-textbox">
-      <h1>How We Can Help</h1>
-        <p>Using our app, we'll not only be able to help you connect with your Physical Therapist but allow you to...</p>
-        <aside>
-          <p>See personalized recommendations from your Physical Therapist</p>
-          <p>Watch uploaded videos on exercises you and your Physical Therapist outline for you at home. Never miss a beat!</p>
-          <p>Maintain a shared list where you and your Physical Therapist can update on the fly!</p>
-        </aside>
     </div>
-
   </section>
+
+  <div class="container">
+    <section class="home-about">
+
+      <div class="home-about-textbox scroll_func--box">
+        <h1>How We Can Help</h1>
+          <p>Using our app, we'll not only be able to help you connect with your Physical Therapist but allow you to...</p>
+          <aside>
+            <p>See personalized recommendations from your Physical Therapist</p>
+            <p>Watch uploaded videos on exercises you and your Physical Therapist outline for you at home. Never miss a beat!</p>
+            <p>Maintain a shared list where you and your Physical Therapist can update on the fly!</p>
+          </aside>
+      </div>
+
+    </section>
+  </div>
 
 <footer>
 
@@ -52,9 +60,37 @@
       <p>Panacea Pal is currently a work in progress. Stay tuned on our twitter page for the offical launch!</p>
     </div>
 
+    <div class="col-1">
+      <ul class="unstyled-list">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+      </ul>
+    </div>
+
+    <div class="col-1">
+      <ul class="unstyled-list">
+        <li><a href="#" class="fa fa-twitter"></a></li>
+      </ul>
+    </div>
+
+    <div class="col-1">
+      <ul class="unstyled-list">
+        <li><a class="gplus" href="#" title="Google Plus">Google Plus</a></li>
+      </ul>
+    </div>
+
+
   </div>
 
 </footer>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="js/scroll_func.js"></script>
 
 </body>
 </html>
